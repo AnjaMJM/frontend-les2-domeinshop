@@ -27,7 +27,7 @@ Table of Contents:
 }
 
 a,
-a:visited
+a:visited,
 a:link {
     color: #899CA0;
 }
@@ -52,10 +52,14 @@ h1 {
 }
 
 h2 {
+    font-size: 32px;
     padding: 40px;
     text-align: center;
 }
 
+/*p {*/
+/*    line-height: 35px;*/
+/*}*/
 /*////////////////////////
     3. Areas
 ////////////////////////*/
@@ -109,17 +113,17 @@ main {
 .testimonial {
     position: relative;
     text-align: left;
+    line-height: 35px;
     padding: 50px 50px 50px 120px;
-    width: 900px;
-    margin: 20px;
-    box-shadow: -5px 5px 10px #899CA0;
-    border-radius: 20px;
+    margin: 20px 0;
+    box-shadow: -5px 5px 15px rgba(189, 189, 190, 0.8);
+    border-radius: 10px;
 }
 .testimonial > img {
     position: absolute;
-    width: 44px;
+    width: 30px;
     top: 50px;
-    left: 35px;
+    left: 70px;
 }
 
 .reviewer {
@@ -136,16 +140,18 @@ main {
 /*///////////// 3.3 Support /////////////*/
 
 img {
-    border-radius: 20px;
+    border-radius: 10px;
     width: 100%;
+    margin: 10px 0;
+
 }
 
 .contact {
     background-color: #1C2B32;
     color: #FFFFFF;
-    width: 200px;
+    width: 160px;
     height: 50px;
-    margin: 20px;
+    margin: 20px 0;
     border: 2px solid #1C2B32;
     border-radius: 25px;
 }
@@ -153,15 +159,16 @@ img {
 /*///////////// 3.4 Faq /////////////*/
 
 details {
-    line-height: 35px;
+    /*line-height: 35px;*/
 
 }
 details > summary {
     cursor: pointer;
+    line-height: 60px;
 }
 
 details > p {
-    padding: 40px;
+    padding: 35px;
     color: #FFFFFF;
     background-color: #899CA0;
     border: none;
@@ -170,3 +177,13 @@ details > p {
     list-style: none;
 }
 /*///////////// 3.5 Footer /////////////*/
+
+.footer-page {
+    height: 100px;
+    background-color: #1C2B32;
+    font-size: 11px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 100px;
+
+}
